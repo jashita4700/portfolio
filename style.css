@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.left-nav {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff !important;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.content {
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+}
+.link {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.menu {
+  list-style: none;
+}
+a:hover {
+  background-color: aqua;
+}
+h1 {
+  padding-top: 100px;
+}
+a {
+  text-decoration: none;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.image img {
+  width: 33.3333333%;
+}
+form {
+  text-align: left;
+  background-color: papayawhip;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 15px;
+  color: black;
+  width: 30%;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
+#btn {
+  width: 100%;
+  background-color: darkgray;
+  height: 5%;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+  background-color: #f1f1f1;
+}
+
+.pagination a {
+  flex-direction: row;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+}

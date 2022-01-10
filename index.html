@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-nav">
+        <h1>JASHITA SHARMA</h1>
+        <br /><br />
+        <ul class="menu">
+          <li class="link"><a href="home">Portfolio</a></li>
+          <li class="link"><a href="aboutme">About Me</a></li>
+          <li class="link"><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <section class="image">
+          <img src="img1.jpeg" />
+          <img src="img2.jpeg" />
+          <img src="img3.jpeg" />
+          <img src="img4.jpeg" />
+          <img src="img5.jpeg" />
+          <img src="img6.jpeg" />
+          <img src="img7.jpeg" />
+          <img src="img8.jpeg" />
+          <img src="img9.jpeg" />
+        </section>
+        <section class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">&raquo;</a>
+        </section>
+        <section id="aboutme"></section>
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <p>
+            Do you want me to photograph you? Fill out the form and fill me in
+            with the details :)<br />
+            I love meeting new people!
+          </p>
+          <div>
+            <form action="/action_page.php">
+              <label for="fname">Name:</label><br />
+              <input
+                type="text"
+                id="fname"
+                placeholder="Enter your name"
+                style="width: 100%"
+                required
+              /><br /><br />
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                style="width: 100%"
+                required
+              /><br /><br />
+              <label for="msg">Message</label><br />
+              <input
+                type="text"
+                id="msg"
+                placeholder="Enter your message"
+                style="width: 100%"
+                required
+              /><br /><br />
+              <input type="submit" id="btn" value="Message" />
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
